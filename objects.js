@@ -1,3 +1,6 @@
 var playlist = {["a"]: "b"}
 
-function 
+function updatePlaylist(o, a, t){
+  o[a]=t
+  return o
+}
