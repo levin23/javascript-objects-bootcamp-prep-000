@@ -5,7 +5,7 @@ function updatePlaylist(o, a, t){
   return o
 }
 
-function updatePlaylist(o, a, t){
-  o[a]=t
+function removeFromPlaylist(o, a){
+  delete o[a]
   return o
 }
